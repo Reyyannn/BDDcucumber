@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-14T01:58:55.073Z",
+        "line": 3,
+        "name": "login in valid crediantals",
+        "description": "",
+        "id": "login;login-in-valid-crediantals",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 111\nCurrent browser version is 113.0.5672.93 with binary path C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00274.0.0-alpha-5\u0027, revision: \u0027b3a0d621cc\u0027\nSystem info: host: \u0027DESKTOP-I2FGE8S\u0027, ip: \u0027192.168.1.171\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\t(No symbol) [0x0099DCE3]\n\t(No symbol) [0x009339D1]\n\t(No symbol) [0x00844DA8]\n\t(No symbol) [0x00864F6C]\n\t(No symbol) [0x00860D11]\n\t(No symbol) [0x0085ED19]\n\t(No symbol) [0x008915AE]\n\t(No symbol) [0x0089129C]\n\t(No symbol) [0x0088ACC6]\n\t(No symbol) [0x00866F68]\n\t(No symbol) [0x008680CD]\n\tGetHandleVerifier [0x00C13832+2506274]\n\tGetHandleVerifier [0x00C49794+2727300]\n\tGetHandleVerifier [0x00C4E36C+2746716]\n\tGetHandleVerifier [0x00A46690+617600]\n\t(No symbol) [0x0093C712]\n\t(No symbol) [0x00941FF8]\n\t(No symbol) [0x009420DB]\n\t(No symbol) [0x0094C63B]\n\tBaseThreadInitThunk [0x74CD7D59+25]\n\tRtlInitializeExceptionChain [0x7701B74B+107]\n\tRtlClearBits [0x7701B6CF+191]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:136)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:75)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:163)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:150)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:105)\r\n\tat stepDefinition.LoginSteps.i_am_on_sauce_lab_login_page(LoginSteps.java:14)\r\n\tat ✽.I am on sauce lab login page(file:///C:/Users/Aasth/eclipse-workspace/BDDcucumber/src/test/resources/features/demo.feature:4)\r\n",
+              "duration": 2232270100,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "I am on sauce lab login page",
+            "match": {
+              "location": "stepDefinition.LoginSteps.i_am_on_sauce_lab_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I enter usrename",
+            "match": {
+              "location": "stepDefinition.LoginSteps.i_enter_usrename()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I enter password",
+            "match": {
+              "location": "stepDefinition.LoginSteps.i_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I click on login button",
+            "match": {
+              "location": "stepDefinition.LoginSteps.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I will be navigated to dashboard",
+            "match": {
+              "location": "stepDefinition.LoginSteps.i_will_be_navigated_to_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/demo.feature",
+    "tags": []
+  }
+]
